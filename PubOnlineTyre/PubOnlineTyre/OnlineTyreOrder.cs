@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace PubOnlineTyre
 {
-    public class OnlineTyre
+    public class OnlineTyreOrder
     {
         public string TyreBrand { get; set; }
         public int TyreCount { get; set; }
         public string TyreSize { get; set; }
+        public string CustomerEMail { get; set; }
     }
 }
